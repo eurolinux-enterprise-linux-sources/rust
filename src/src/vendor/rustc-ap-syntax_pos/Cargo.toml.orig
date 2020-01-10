@@ -1,0 +1,25 @@
+[dependencies]
+term = "0.4"
+unicode-width = "0.1.4"
+
+[dependencies.rustc-ap-rustc_data_structures]
+version = "121.0.0"
+
+[dependencies.rustc-ap-serialize]
+version = "121.0.0"
+
+[dependencies.scoped-tls]
+features = ["nightly"]
+version = "0.1.1"
+
+[lib]
+name = "syntax_pos"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+description = "Automatically published version of the package `syntax_pos` in the rust-lang/rust repository from commit 91db9dcf3730207f63b3dfc33b2c438a769b7517 Thie publishing script for this crate lives at: https://github.com/alexcrichton/rustc-auto-publish\n            "
+license = "MIT / Apache-2.0"
+name = "rustc-ap-syntax_pos"
+repository = "https://github.com/rust-lang/rust"
+version = "121.0.0"
